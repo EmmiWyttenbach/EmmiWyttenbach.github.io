@@ -1,0 +1,75 @@
+.card {
+    width:23.6%;
+    height:23.5vh;
+    border-radius: 5px;
+    border: 3px solid #7D96A3;
+    margin: 2px;
+    color:transparent;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: white;
+}
+button:hover {
+    opacity:.5;
+}
+.instructionPanel {
+    display: inline-block;
+    position: absolute;
+    overflow: hidden;
+    text-align: center;
+}
+
+body {
+    background-color: #DEECF3;
+}
+h1 {
+    text-align:center;
+    font-variant: small-caps;
+}
+.cardHolder {
+    float: left;
+    width: 75%;
+}
+
+.a {
+    display:inline;
+}
+
+#match {
+    color: transparent;
+    text-align: center;
+    border: none;
+    font-size: 15px;
+    font-family: 'Times New Roman';
+    background-color: transparent;
+}
+
+.instructionPanelElements {
+    width: 90%;
+    height: 30px;
+    float: center;
+    background-color: gray;
+    border: none;
+    margin: 10px;
+    color: white;
+    font-size: 18px;
+    font-family: 'Times New Roman';
+    border-radius: 4px;
+}
+
+p {
+    font-size: 17px;
+}
+
+.instructionPanelElements:hover{
+    background-color: #CAD6DD;
+    border:1px solid gray;
+    color: gray;
+
+}
+
+#restartText {
+    background-color: transparent;
+    color:transparent;
+    border:none;
+}
